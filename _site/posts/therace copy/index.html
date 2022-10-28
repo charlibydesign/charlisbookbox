@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="device-width, initial-scale=1.0">
+      <meta name="description" content="Book Reviews">
+        <title>Charli's Book Box</title>
+        <link rel="stylesheet" href="/static/css/reset.css"/>
+        <link rel="stylesheet" href="/static/css/style.css"/>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+    </head>
+    <body>
+      <div class="wrapper">
+          <nav role="navigation" class="topnav">
+            <div class="logo">Charli's Book Box</div>
+            <ul class="nav-links">
+              <!-- Using CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox__toggle">
+              <label for="checkbox__toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+              <li class="menu__item"><a href="/">Home</a></li>
+              <li class="menu__item"><a href="/about/">About</a></li>
+              <li class="menu__item"><a href="/posts/">Blog</a></li>
+              <li class="menu__item"><a href="/credits/">Credits</a></li>
+              <li class="menu__item"><a href="/contact/">Contact</a></li>
+            </div>
+          </ul>
+        </nav>
+        <main class="content__main">
+        <section class="main">
+        <div class="single__post">
+<h2 class="post-title">Book Review - The Race</h2>
+<span class="when__posted2">Posted on <span class="why__me">01-19-16</span> by Charli</span>
+<article class="post">
+<p><section class="review__info">
+<img loading="lazy" class="movie__poster" src="/static/images/covers/therace.webp" alt="Book Cover for The Race by Darrell Waltrip, Kyle Froman, and Billy Mauldin" width="258" height="400" align="left">
+<p><b>Title:</b> <i>The Race</i><br>
+<b>Authors:</b> Darrell Waltrip, Kyle Froman, Billy Mauldin<br>
+<b>Publication Date:</b> May 5, 2014<br>
+<b>Publisher:</b> B&amp;H Publishing Group<br>
+<b>Format:</b> eARC<br>
+<b>Source:</b> NetGalley<br>
+<b>Rating:</b> ★★★★☆</p>
+<p class="review__description"><i>“Boogity, boogity, boogity! Let’s go racing!”</i></p>
+<p>Winning is in every racer’s blood. They continually push themselves to the edge, physically and emotionally, in pursuit of the checkered flag and a visit to Victory Lane. It is the racer’s way.</p>
+<p>We too are racers in the middle of the greatest race known to mankind: life. We want to live in a way that, when we reach our finish line, we can be proud of what we’ve accomplished. We want to be an example for our family and friends. And if we are a follower of Christ, we want to hear the words “well done my good and faithful servant.”</p>
+<p>In The Race, Motor Racing Outreach leaders Billy Mauldin and Kyle Froman share the lessons they’ve learned in the pits and among the NASCAR community to help others with their personal mission—preparing for it, receiving it, and then living faithfully on mission.</p>
+<p>Throughout, three-time NASCAR champion and Hall of Fame inductee Darrell Waltrip offers related stories on what it takes to win the race, giving fans an inside look at his profession and the personal belief in God that keeps him on mission.</p>
+</section>
+<blockquote>I received this book for free from NetGalley in exchange for an honest review. This does not affect my opinion of the book or the content of my review.</blockquote>
+<p>I’ve been a NASCAR fan for quite a while so I know who Darrell Waltrip is. And I’ll admit, I thought this book was going to be more about racing than about being a Christian. I suppose I should have expected the Christianity bit by the publisher, but I wasn’t paying attention when I picked it.</p>
+<p>The book is surprisingly good and shows how you can live a life on the road, working every Sunday, and still keep and spread your Christian faith. While Darrell doesn’t so much talk about how he’s shared his faith–he talks more about how he kept it than how he’s shared it–Kyle Froman and Billy Mauldin talk about sharing faith as chaplains for MRO (Motor Racing Outreach).</p>
+<p>The Race brings a new perspective to Christianity. It brings the perspective of people who know that it is a struggle to be a Christian in our world and what kind of struggles one might have based on the profession he or she has chosen. It is clear to see that the message is that we can still be Christians regardless of what we choose to do with our lives and we can still be shining lights for others at the same time.</p></p>
+</article>
+</div>
+        </section>
+        <aside role="complementary" class="sidebar">
+          <article class="author__bio">
+            <img class="author__photo" src="/static/images/charli.webp" height="200" width="200" alt="Photo of Charli">
+            <h2 class="author__intro">Hi There...</h2>
+            <p class="author__info">I'm Charli. I'm a <span class="horror__fan">horror enthusiast</span>, <span class="bookworm">bookworm</span>, <span class="web__dev">web developer</span>, and <span class="metalhead">metalhead</span>. <a href="/about/">More...</a>
+            </article>
+        </aside>
+        </main>
+        <footer role="contentinfo" class="footer">
+        &copy; 2022 Charity Gamble<br>
+        Built with <a href="https://11ty.dev">11ty</a> &amp; <a href="https://netlifycms.org">Netlify CMS</a>. 
+        Hosted on <a href="https://netlify.com">Netlify</a>.<br>
+        
+        </footer>
+        </div>
+        <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+    </body>
+</html>   
