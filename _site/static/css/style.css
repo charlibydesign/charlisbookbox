@@ -96,7 +96,7 @@ header h1 {
     align-items: center;
     justify-content: space-between;
     padding: 1.25em;
-    background-color: black;
+    background-color: darkblue;
     color: white;
 }
 
@@ -110,7 +110,7 @@ header h1 {
 }
 
 .nav-links a:visited {
-    color: mediumpurple;
+    color: lightskyblue;
 }
 
 .logo {
@@ -126,7 +126,7 @@ header h1 {
 }
 
 .menu li:hover {
-    background-color: lightgray;
+    background-color: darkslateblue;
     border-radius: .3125em;
     transition: 0.3s ease;
 }
@@ -162,7 +162,7 @@ input[type=checkbox] {
 
     .menu li:hover {
         display: inline-block;
-        background-color: mediumpurple;
+        background-color: lightskyblue;
         color: white;
         transition: 0.3s ease;
     }
@@ -205,11 +205,11 @@ input[type=checkbox] {
 }
 
 .credits_list a:active {
-    color: mediumpurple;
+    color: lightskyblue;
 }
 
 .credits_list a:hover {
-    color: mediumpurple;
+    color: lightskyblue;
 }
 
 .credits_list a:visited {
@@ -503,7 +503,7 @@ button {
 }
 
 .footer a {
-    color: mediumpurple;
+    color: lightskyblue;
     text-decoration: none;
 }
 
