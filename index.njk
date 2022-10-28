@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.posts
+  size: 3
+  reverse: true
+  alias: postlist
+---
+<section class="postlist">
+<ul>
+{% for post in postlist %}
+  <li><a class="post__url" href="{{ post.url | url }}"><h2 class="the__title">{{ post.data.title }}</h2></a>
+  <span class="when__posted">Posted on <span class="why__me">{{ post.date | readableDate }}</span> - by Charli</span>
+  <article class="the__post">{{ post.templateContent | safe }}</article></li>
+{% endfor %}
+</ul>
+</section>
+<section class="pagination">
+  {% if pagination.href.previous %}<a class="pagination__link" href="{{ pagination.href.previous }}">&lt;&lt;</a>{% endif %}
+  {%- for pageUrl in pagination.hrefs %}
+  {%- set isCurrentPage = pagination.pageNumber == loop.index0 -%}
+  {%- if isCurrentPage %}<strong>{%- endif %}
+
+  {%- if isCurrentPage 
+  or loop.first 
+  or loop.last
+  or pagination.pageNumber in [loop.index0-1, loop.index0+1] -%}
+
+    {%- if loop.last and pagination.pageNumber < (loop.length - 3) -%}
+      ...
+    {%- endif -%}
+
+    <a class="pagination__link" href="{{ pageUrl }}">{{ loop.index }}</a>
+
+    {%- if loop.first and pagination.pageNumber > 2 -%}
+      ...
+    {%- endif -%}
+
+  {%- endif -%}
+  
+  {%- if isCurrentPage %}</strong>{%- endif %}
+{%- endfor %}
+{% if pagination.href.next %}<a class="pagination__link" href="{{ pagination.href.next }}">&gt;&gt;</a>{% endif %}
+</section>
