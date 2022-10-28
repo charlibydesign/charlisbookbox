@@ -6,7 +6,7 @@ date: 2016-01-14
 ---
 <section class="review__info">
 
-<img loading="lazy" class="movie__poster" src="/static/images/book/chasingtheboogeyman.webp" alt="Book Cover for Chasing the Boogeyman by Richard Chizmar" width="199" height="300" align="left">
+<img loading="lazy" class="movie__poster" src="/static/images/covers/deadmanskiss.webp" alt="Book Cover for Dead Man's Kiss by Jennifer Bray-Weber" width="259" height="400" align="left">
         
 Title: Dead Man's Kiss<br>
 Series: Romancing the Pirate #5<br>
