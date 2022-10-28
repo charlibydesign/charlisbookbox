@@ -1,0 +1,596 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+/* Global Styles */
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 1.25;
+    color: black;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: 'Metamorphous', serif;
+    font-weight: 400;
+    color: darkblue;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.875em;
+}
+
+blockquote {
+    background: lightblue;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border: darkblue 0.0625em solid;
+    padding: 0.9375em;
+    margin-bottom: 1.25em;
+    line-height: 1.5;
+}
+
+cite {
+    font-size: .75em;
+    padding-top: 1.25em;
+}
+
+p {
+    padding-bottom: 1.25em;
+    line-height: 1.5;
+    width: 90%;
+    padding-left: 2.5em;
+}
+
+/* Wrapper Styles */
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: 400;
+    background: white;
+}
+
+.wrapper > * {
+    padding: 0.625em;
+    flex: 1 100%;
+}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 0;
+    padding-bottom: 1.25em;
+    padding-top: 0.625em;
+    display: flex;
+}
+
+header h1 {
+    font-size: 6.25em;
+    margin: 0 auto;
+}
+
+/* Navigation Styles */
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25em;
+    background-color: black;
+    color: white;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:active {
+    color: lightblue;
+}
+
+.nav-links a:visited {
+    color: mediumpurple;
+}
+
+.logo {
+    font-family: 'Metamorphous', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    font-size: 1.125em;
+}
+
+.menu li:hover {
+    background-color: lightgray;
+    border-radius: .3125em;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: .3125em .875em;
+}
+
+/*Responsive Menu Start*/
+/*Checkbox Hack*/
+input[type=checkbox] {
+    display: none;
+}
+
+/*Hamburber Menu*/
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    user-select: none;
+}
+
+/*Navigation Media Queries*/
+@media (max-width: 48em) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: black;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: mediumpurple;
+        color: white;
+        transition: 0.3s ease;
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+/*Content Main*/
+
+.archive__header {
+    font-size: 3.75em;
+    text-align: center;
+    margin-bottom: 1.25em;
+    margin-top: .25em;
+}
+
+.wrap_it_up {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.credits_header {
+    font-size: 1.875em;
+    text-align: center;
+}
+
+.credits_list {
+    text-align: center;
+}
+
+.credits_list a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.credits_list a:active {
+    color: mediumpurple;
+}
+
+.credits_list a:hover {
+    color: mediumpurple;
+}
+
+.credits_list a:visited {
+    color: black;
+}
+
+.choose_your_adventure {
+    height: auto;
+    width: auto;
+    max-height: 12.5em;
+    padding-right: .9375em;
+    padding-left: .9375em;
+}
+
+.what_to_read {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__main {
+    width: 100%;
+}
+
+.main {
+    float: left;
+    width: 75%;
+}
+
+.sidebar {
+    float: right;
+    width: 25%;
+}
+
+.the__title {
+    line-height: 1.5;
+}
+
+.when__posted {
+    line-height: 1;
+    margin-top: .3125em;
+    margin-bottom: 2em;
+    padding-bottom: 1.25em;
+    font-size: 0.9375em;
+}
+
+.when__posted2 {
+    line-height: 1;
+    margin-top: .3125em;
+    margin-left: 3.4em;
+    margin-bottom: 1.875em;
+    padding-bottom: 1.25em;
+}
+
+.the__post {
+    padding-bottom: 1.875em;
+    margin-top: 1.875em;
+}
+
+/* Post Styles */
+
+.postlist {
+    max-width: 90%;
+    margin: 1.25em auto;
+}
+
+.postlist__link {
+    color: darkblue;
+    font-family: 'Metamorphous', serif;
+    text-decoration: none;
+    font-size: 3.125em;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.postlist__time {
+    font-size: 1.25em;
+    line-height: 1.5;
+    padding-bottom: 1.25em;
+    font-family: 'Metamorphous', serif;
+    color: black;
+}
+
+.post__url {
+    text-decoration: none;
+}
+
+.post {
+    max-width: 90%;
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+    background: white;
+    padding: .625em;
+}
+
+.post h3 {
+    margin-left: 1.3em;
+}
+
+.single__post {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.post-title {
+    margin-top: 3.125em;
+    margin-left: 1.4em;
+    line-height: 90%;
+}
+
+.post-date {
+    line-height: 130%;
+    margin-left: 1.875em;
+}
+
+.post__title {
+    padding-left: 2.5em;
+    padding-bottom: .625em;
+}
+
+.post__date {
+    padding-left: 2.5em;
+    padding-bottom: 1.25em;
+    font-size: 1em;
+}
+
+.pagination {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.pagination__link {
+    font-size: 1em;
+}
+
+/*Review Post Styles */
+
+.review__info img {
+    padding-right: .9375em;
+    padding-left: .9875em;
+    }
+    
+.review__info {
+        border: .0625em solid darkblue;
+        background-color: lightblue;
+        margin-bottom: 2.5em;
+        min-height: 15.625em;
+        padding-top: .9375em;
+        width: 87%;
+        margin-left: 2.8125em;
+        margin-top: 1.875em;
+    }
+
+.review__description {
+    margin-top: 2.5em;
+    padding-top: 1.5em;
+}
+
+    /* Sidebar Styles */
+
+.sidebar {
+    margin-top: 1.25em;
+}
+.author__bio {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+}
+
+.author__photo {
+    height: 50%;
+    width: 50%;
+    border-radius: 6.25em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.25em;
+}
+
+.author__intro {
+    margin-left: 2.5em;
+}
+
+.author__info {
+    padding-top: .9375em;
+}
+
+.author__info a {
+    text-decoration: none;
+    color: deeppink;
+}
+
+.horror__fan {
+    color: darkblue;
+}
+
+.bookworm {
+    color: darkgreen;
+}
+
+.web__dev {
+    color: blue;
+}
+
+.metalhead {
+    color: darkblue;
+}
+
+
+/* Film Diary */
+
+.film__entry {
+    padding: .625em;
+    margin: .625em;
+}
+
+.film__entry img {
+    padding-right: .9375em;
+}
+
+.film__info {
+    padding: .9375em 0;
+}
+
+.film__url {
+    text-decoration: none;
+    font-size: 1.125em;
+    color: darkblue;
+}
+
+/* About Page Styles */
+
+.hey__charli__heading {
+    margin-left: 1.875em;
+    margin-bottom: 2.5em;
+}
+
+/* Contact Page Styles */
+
+.streaming__list {
+    list-style-type: square;
+    display: block;
+    margin: 0 auto;
+    padding-left: 5em;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    border: .1875em solid black;
+    border-radius: .3125em;
+    height: 2em;
+}
+
+textarea {
+    border: .1875em solid black;
+    border-radius: .3125em;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: .3125em;
+    color: white;
+    padding: .9375em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+/* Footer Styles */
+
+.footer {
+    clear: both;
+    width: 100%;
+    background: black;
+    color: white;
+    line-height: 1.25;
+    font-size: .875em;
+    text-align: center;
+    margin-top: 3.125em;
+}
+
+.footer a {
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+.attribution {
+    font-size: .75em;
+}
+
+/* 404 Page */
+
+.error_page {
+    margin: 0 auto;
+
+}
+
+.error_page h1 {
+    text-align: center;
+}
+
+.error_page img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sorry {
+    text-align: center;
+}
+
+@media (max-width: 48em) {
+
+    h1, h2, h3 {
+        font-family: 'Tahoma', sans-serif;
+    }
+
+    h2 {
+        font-size: 1.75em;
+        padding-left: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        padding-left: 1.7em;
+    }
+
+    .when__posted {
+        padding-left: 2.7em;
+    }
+    .sidebar {
+        display: none;
+    }
+
+    .review__info {
+        overflow: auto;
+        padding-right: 2em;
+    }
+    
+    .review__info img {
+        display: block;
+        padding-left: 4em;
+        padding-bottom: 2em;
+        margin: 0 auto;
+        height: 75%;
+        width: 75%;
+    }
+}
+
+@media (min-width: 40em) {
+    .pagination__link {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 48em) {
+    .pagination__link {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 64em) {
+    .pagination__link {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 80em) {
+    .pagination__link {
+        font-size: 1em;
+    }
+}
