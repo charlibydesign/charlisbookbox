@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="device-width, initial-scale=1.0">
+      <meta name="description" content="Book Reviews">
+        <title>Charli's Book Box</title>
+        <link rel="stylesheet" href="/static/css/reset.css"/>
+        <link rel="stylesheet" href="/static/css/style.css"/>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+    </head>
+    <body>
+      <div class="wrapper">
+          <nav role="navigation" class="topnav">
+            <div class="logo">Charli's Book Box</div>
+            <ul class="nav-links">
+              <!-- Using CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox__toggle">
+              <label for="checkbox__toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+              <li class="menu__item"><a href="/">Home</a></li>
+              <li class="menu__item"><a href="/about/">About</a></li>
+              <li class="menu__item"><a href="/posts/">Blog</a></li>
+              <li class="menu__item"><a href="/credits/">Credits</a></li>
+              <li class="menu__item"><a href="/contact/">Contact</a></li>
+            </div>
+          </ul>
+        </nav>
+        <main class="content__main">
+        <section class="main">
+        <div class="single__post">
+<h2 class="post-title">Book Review - A Blink of the Screen</h2>
+<span class="when__posted2">Posted on <span class="why__me">06-20-18</span> by Charli</span>
+<article class="post">
+<p><section class="review__info">
+<img loading="lazy" class="movie__poster" src="/static/images/covers/ablinkofthescreen.webp" alt="Book Cover for A Blink of the Screen by Terry Pratchett" width="260" height="400" align="left">
+<p><b>Title:</b> <i>A Blink of the Screen</i><br>
+<b>Author:</b> Terry Pratchett<br>
+<b>Publication Date:</b> March 17, 2015<br>
+<b>Publisher:</b> Knopf Doubleday Publishing Group<br>
+<b>Format:</b> Hardcover<br>
+<b>Source:</b> Public Library<br>
+<b>Rating:</b> ★★★☆☆</p>
+<p class="review__description">A collection of short fiction from Terry Pratchett, spanning the whole of his writing career from schooldays to Discworld and the present day. In the four decades since his first book appeared in print, Terry Pratchett has become one of the world's best-selling and best-loved authors. Here for the first time are his short stories and other short-form fiction collected into one volume. <i>A Blink of the Screen</i> charts the course of Pratchett's long writing career: from his schooldays through to his first writing job on the Bucks Free Press, and the origins of his debut novel, <i>The Carpet People</i>; and on again to the dizzy mastery of the phenomenally successful Discworld series. Here are characters both familiar and yet to be discovered; abandoned worlds and others still expanding; adventure, chickens, death, disco and, actually, some quite disturbing ideas about Christmas, all of it shot through with Terry's inimitable brand of humour. With an introduction by Booker Prize-winning author A.S. Byatt, illustrations by the late Josh Kirby and drawings by the author himself, this is a book to treasure.</p>
+</section>
+<p>This was my first foray into reading Terry Pratchett and I have to say, although the stories were good, they weren’t GREAT.</p>
+<p>Part of this is due to some of the stories having been written a long time ago, when he’d first started writing. Part of this is also due to my not being particularly knowledgeable about Discworld, and so the Discworld stories didn’t really make any sense to me.</p>
+<p>Terry Pratchett’s writing style is very good. He knows how to tell a story. I’m not denying that. He knows how to develop characters in just a few short sentences so that a short story can get on with it. But some of the earlier works – I’m just not sure why the editors and publisher were willing to have them in there… and Terry himself was rather embarrassed by some of the stories.</p>
+<p>All in all, it was a good introduction to Terry Pratchett and I would recommend it to those who haven’t read his works as a way to introduce themselves to his writing style. Just keep in mind that some of the stories are from way back when and could use a little work.</p></p>
+</article>
+<script src="https://utteranc.es/client.js"
+        repo="charlibydesign/charlisbookbox"
+        issue-term="title"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+        </section>
+        <aside role="complementary" class="sidebar">
+          <article class="author__bio">
+            <img class="author__photo" src="/static/images/charli.webp" height="200" width="200" alt="Photo of Charli">
+            <h2 class="author__intro">Hi There...</h2>
+            <p class="author__info">I'm Charli. I'm a <span class="horror__fan">horror enthusiast</span>, <span class="bookworm">bookworm</span>, <span class="web__dev">web developer</span>, and <span class="metalhead">metalhead</span>. <a href="/about/">More...</a>
+            </article>
+        </aside>
+        </main>
+        <footer role="contentinfo" class="footer">
+        &copy; 2022 Charity Gamble<br>
+        Built with <a href="https://11ty.dev">11ty</a> &amp; <a href="https://netlifycms.org">Netlify CMS</a>. 
+        Hosted on <a href="https://netlify.com">Netlify</a>.<br>
+        
+        </footer>
+        </div>
+        <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+    </body>
+</html>   

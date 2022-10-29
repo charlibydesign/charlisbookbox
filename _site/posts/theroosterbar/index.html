@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="device-width, initial-scale=1.0">
+      <meta name="description" content="Book Reviews">
+        <title>Charli's Book Box</title>
+        <link rel="stylesheet" href="/static/css/reset.css"/>
+        <link rel="stylesheet" href="/static/css/style.css"/>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+    </head>
+    <body>
+      <div class="wrapper">
+          <nav role="navigation" class="topnav">
+            <div class="logo">Charli's Book Box</div>
+            <ul class="nav-links">
+              <!-- Using CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox__toggle">
+              <label for="checkbox__toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+              <li class="menu__item"><a href="/">Home</a></li>
+              <li class="menu__item"><a href="/about/">About</a></li>
+              <li class="menu__item"><a href="/posts/">Blog</a></li>
+              <li class="menu__item"><a href="/credits/">Credits</a></li>
+              <li class="menu__item"><a href="/contact/">Contact</a></li>
+            </div>
+          </ul>
+        </nav>
+        <main class="content__main">
+        <section class="main">
+        <div class="single__post">
+<h2 class="post-title">Book Review - The Rooster Bar</h2>
+<span class="when__posted2">Posted on <span class="why__me">06-20-18</span> by Charli</span>
+<article class="post">
+<p><section class="review__info">
+<img loading="lazy" class="movie__poster" src="/static/images/covers/theroosterbar.webp" alt="Book Cover for The Rooster Bar by John Grisham" width="243" height="400" align="left">
+<p><b>Title:</b> <i>The Rooster Bar</i><br>
+<b>Author:</b> John Grisham<br>
+<b>Publication Date:</b> October 24, 2017<br>
+<b>Publisher:</b> Random House Publishing Group<br>
+<b>Format:</b> Hardcover<br>
+<b>Source:</b> Public Library<br>
+<b>Rating:</b> ★★★☆☆</p>
+<p class="review__description"><b>#1 New York Times bestselling author John Grisham’s newest legal thriller takes you inside a law firm that’s on shaky ground.“[A] buoyant, mischievous thriller . . . Grisham writes in such an inventive spirit. . . . A treat.”—Janet Maslin, The New York Times</b></p>
+<p>Mark, Todd, and Zola came to law school to change the world, to make it a better place. But now, as third-year students, these close friends realize they have been duped. They all borrowed heavily to attend a third-tier for-profit law school so mediocre that its graduates rarely pass the bar exam, let alone get good jobs. And when they learn that their school is one of a chain owned by a shady New York hedge-fund operator who also happens to own a bank specializing in student loans, the three know they have been caught up in The Great Law School Scam.   But maybe there’s a way out. Maybe there’s a way to escape their crushing debt, expose the bank and the scam, and make a few bucks in the process. But to do so, they would first have to quit school. And leaving law school a few short months before graduation would be completely crazy, right? Well, yes and no . . .   Pull up a stool, grab a cold one, and get ready to spend some time at The Rooster Bar. </p>
+ <p><b>“Satisfying . . . Grisham [is] at his best when he brings his sardonic sense of humor to the sometimes questionable ethics of law and banking.”—USA Today   “[A] smartly told tale . . . gratifying and all-too-real.”—The Washington Post</b></p>
+</section>
+<p>I’ll be honest, I haven’t read a John Grisham novel in years. I was really into his novels when I was in high school, but to be honest, after high school I kind of lost interest. I think the last time I’d read one of his novels was back in the early 2000s when I still lived in Texas.</p>
+<p>The book was all right, but it wasn’t the type of story I’m used to from John Grisham. I’m used to his books being more like The Pelican Brief and A Time to Kill. This one wasn’t so much like that and I guess I was just expecting another lawyer making a name for him/herself because he/she took on a case that was making big headlines.</p>
+<p>The book was well written, although you might have to get a notepad to keep track of changing names and what’s going on with each person’s family because it can get a bit on the complicated side. I don’t think this book had quite as much character development as previous novels and to be honest, I think that was part of why I didn’t like it. It just didn’t have that John Grisham feel.</p>
+<p>All in all, it was a good book but not one I’d really recommend to long time fans of John Grisham.</p></p>
+</article>
+<script src="https://utteranc.es/client.js"
+        repo="charlibydesign/charlisbookbox"
+        issue-term="title"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+        </section>
+        <aside role="complementary" class="sidebar">
+          <article class="author__bio">
+            <img class="author__photo" src="/static/images/charli.webp" height="200" width="200" alt="Photo of Charli">
+            <h2 class="author__intro">Hi There...</h2>
+            <p class="author__info">I'm Charli. I'm a <span class="horror__fan">horror enthusiast</span>, <span class="bookworm">bookworm</span>, <span class="web__dev">web developer</span>, and <span class="metalhead">metalhead</span>. <a href="/about/">More...</a>
+            </article>
+        </aside>
+        </main>
+        <footer role="contentinfo" class="footer">
+        &copy; 2022 Charity Gamble<br>
+        Built with <a href="https://11ty.dev">11ty</a> &amp; <a href="https://netlifycms.org">Netlify CMS</a>. 
+        Hosted on <a href="https://netlify.com">Netlify</a>.<br>
+        
+        </footer>
+        </div>
+        <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+    </body>
+</html>   
