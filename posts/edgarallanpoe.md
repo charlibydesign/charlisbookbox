@@ -26,7 +26,7 @@ Using the form of literary nonfiction, Cafiero successfully structures this memo
 Perhaps this is the only way to pay tribute to a writer who has indelibly marked the nineteenth-century.</p>
 </section>
 
-<blockquote>I received a copy of this book free from NetGalley and Jennifer Bray-Weber to facilitate my review. All opinions given are 100% my own.</blockquote>
+<blockquote>I received a copy of this book free from NetGalley to facilitate my review. All opinions given are 100% my own.</blockquote>
 
 <p>I put this book as a DNF because I abandoned it, but honestly, the book was horrible. The book reads like a grade school essay. It’s disjointed, disconnected, and nearly impossible to make sense of.
 </p>
