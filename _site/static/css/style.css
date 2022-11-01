@@ -1,13 +1,11 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
-
 /* Global Styles */
 body {
     background-color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 1em;
     line-height: 1.25;
     color: black;
+    overflow: auto;
 }
 
 strong, b {
@@ -19,7 +17,7 @@ em, i {
 }
 
 h1, h2, h3 {
-    font-family: 'Metamorphous', serif;
+    font-family: 'Georgia', serif;
     font-weight: 400;
     color: darkblue;
 }
@@ -34,6 +32,7 @@ h2 {
 
 h3 {
     font-size: 1.875em;
+    margin-left: 1.2em;
 }
 
 blockquote {
@@ -100,9 +99,35 @@ header h1 {
     color: white;
 }
 
+.side__nav {
+    text-align: center;
+    margin: 1.5em auto 2em auto;
+    width: 80%;
+}
+
 .nav-links a {
     color: white;
     text-decoration: none;
+}
+
+.nav-links2 a {
+    color: darkblue;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+.nav-links2 a:active {
+    color: darkslateblue;
+}
+
+.nav-links2 a:hover {
+    color: lightblue;
+}
+
+.nav-links2 a:visited {
+    color: black;
 }
 
 .nav-links a:active {
@@ -114,7 +139,7 @@ header h1 {
 }
 
 .logo {
-    font-family: 'Metamorphous', sans-serif;
+    font-family: 'Georgia', sans-serif;
     font-size: 2em;
     color: white;
 }
@@ -150,6 +175,9 @@ input[type=checkbox] {
 
 /*Navigation Media Queries*/
 @media (max-width: 48em) {
+    .logo {
+        font-size: 1.5em;
+    }
     .menu {
         display: none;
         position: absolute;
@@ -173,6 +201,12 @@ input[type=checkbox] {
 
     .hamburger {
         display: block;
+    }
+}
+
+@media (min-width: 49em) {
+    .topnav {
+        display: none;
     }
 }
 
@@ -236,17 +270,18 @@ input[type=checkbox] {
 }
 
 .main {
-    float: left;
+    float: right;
     width: 75%;
 }
 
 .sidebar {
-    float: right;
+    float: left;
     width: 25%;
 }
 
 .the__title {
     line-height: 1.5;
+    margin-left: 1em;
 }
 
 .when__posted {
@@ -255,6 +290,7 @@ input[type=checkbox] {
     margin-bottom: 2em;
     padding-bottom: 1.25em;
     font-size: 0.9375em;
+    margin-left: 3em;
 }
 
 .when__posted2 {
@@ -279,7 +315,7 @@ input[type=checkbox] {
 
 .postlist__link {
     color: darkblue;
-    font-family: 'Metamorphous', serif;
+    font-family: 'Georgia', serif;
     text-decoration: none;
     font-size: 3.125em;
     font-weight: 700;
@@ -290,7 +326,7 @@ input[type=checkbox] {
     font-size: 1.25em;
     line-height: 1.5;
     padding-bottom: 1.25em;
-    font-family: 'Metamorphous', serif;
+    font-family: 'Georgia', serif;
     color: black;
 }
 
@@ -396,7 +432,7 @@ input[type=checkbox] {
 }
 
 .author__intro {
-    margin-left: 2.5em;
+    text-align: center;
 }
 
 .author__info {
@@ -408,43 +444,16 @@ input[type=checkbox] {
     color: deeppink;
 }
 
-.horror__fan {
+.socia__links {
+    margin-top: .25em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.socia__links a {
     color: darkblue;
 }
 
-.bookworm {
-    color: darkgreen;
-}
-
-.web__dev {
-    color: blue;
-}
-
-.metalhead {
-    color: darkblue;
-}
-
-
-/* Film Diary */
-
-.film__entry {
-    padding: .625em;
-    margin: .625em;
-}
-
-.film__entry img {
-    padding-right: .9375em;
-}
-
-.film__info {
-    padding: .9375em 0;
-}
-
-.film__url {
-    text-decoration: none;
-    font-size: 1.125em;
-    color: darkblue;
-}
 
 /* About Page Styles */
 
@@ -535,17 +544,26 @@ button {
 
 @media (max-width: 48em) {
 
+    .content__main {
+        margin-right: 10em;
+        width: 100%;
+    }
+
     h1, h2, h3 {
         font-family: 'Tahoma', sans-serif;
     }
 
+    h1 {
+        font-size: 2em;
+    }
+
     h2 {
-        font-size: 1.75em;
+        font-size: 1.25em;
         padding-left: 1.3em;
     }
 
     h3 {
-        font-size: 1.5em;
+        font-size: 1em;
         padding-left: 1.7em;
     }
 
@@ -559,11 +577,13 @@ button {
     .review__info {
         overflow: auto;
         padding-right: 2em;
+        margin: 0 auto 2em auto;
+        width: 100%;
     }
     
     .review__info img {
         display: block;
-        padding-left: 4em;
+        padding-left: 2em;
         padding-bottom: 2em;
         margin: 0 auto;
         height: 75%;
