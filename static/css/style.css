@@ -88,6 +88,22 @@ header h1 {
     margin: 0 auto;
 }
 
+.logo__top {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: darkblue;
+    margin-left: 1.65em;
+}
+
+.separator {
+    width: 60%;
+    background-color: darkblue;
+    height: .125em;
+    margin-bottom: 2em;
+}
+
 /* Navigation Styles */
 
 .topnav {
@@ -416,27 +432,22 @@ input[type=checkbox] {
 .sidebar {
     margin-top: 1.25em;
 }
+
 .author__bio {
-    display: flex;
-    flex-flow: column wrap;
-    justify-items: center;
+    font-size: 1.1em;
 }
 
 .author__photo {
-    height: 50%;
-    width: 50%;
-    border-radius: 6.25em;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 1.25em;
+    height: 40%;
+    width: 40%;
+    margin-left: 1.5em;
+    float: left;
+    padding: 0 1.25em 1.25em 0;
 }
 
 .author__intro {
     text-align: center;
-}
-
-.author__info {
-    padding-top: .9375em;
+    font-size: 2em;
 }
 
 .author__info a {
@@ -444,10 +455,17 @@ input[type=checkbox] {
     color: deeppink;
 }
 
+.socia__intro {
+    margin-top: .5em;
+    text-align: center;
+    font-size: 2em;
+}
+
 .socia__links {
     margin-top: .25em;
     text-align: center;
     font-size: 2em;
+    margin-bottom: 1em;
 }
 
 .socia__links a {
@@ -458,8 +476,15 @@ input[type=checkbox] {
 /* About Page Styles */
 
 .hey__charli__heading {
-    margin-left: 1.875em;
-    margin-bottom: 2.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+}
+
+.bio__list {
+    list-style-type: square;
+    margin-left: 3.5em;
+    line-height: 1.5;
 }
 
 /* Contact Page Styles */
@@ -503,8 +528,8 @@ button {
 .footer {
     clear: both;
     width: 100%;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     line-height: 1.25;
     font-size: .875em;
     text-align: center;
@@ -512,7 +537,7 @@ button {
 }
 
 .footer a {
-    color: lightskyblue;
+    color: darkblue;
     text-decoration: none;
 }
 
