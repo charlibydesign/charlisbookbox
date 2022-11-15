@@ -26,6 +26,8 @@ date: 2019-03-05
 <p>The war is only just beginning.</p>
 </section>
 
+<blockquote>I received this book for free from NetGalley in exchange for an honest review. This does not affect my opinion of the book or the content of my review.</blockquote>
+
 <p>It took me a good long time to read this book. I started reading it and I would stop, then I’d try to start it again. Then I decided to just buckle down and read the book. I have to say it was a pretty darn good book.</p>
 
 <p>I wasn’t expecting it to be the first in a series, but as I started coming closer and closer to the end, I realized that it may well be part of a series – and I was right, it is. The book takes you on a journey of what happens in a medieval style world when someone comes home from war and realizes that a new war is brewing and it’s starting in his own city. The book is rather slow to start and at times doesn’t make sense, but anything that doesn’t make sense at the time will be clarified later in the book.</p>
