@@ -176,6 +176,10 @@ header h1 {
     padding: .3125em .875em;
 }
 
+.fa-brands {
+    font-weight: 500;
+}
+
 /*Responsive Menu Start*/
 /*Checkbox Hack*/
 input[type=checkbox] {
@@ -470,6 +474,11 @@ input[type=checkbox] {
 
 .socia__links a {
     color: darkblue;
+}
+
+.currently__reading {
+    display: block;
+    margin: 5px auto;
 }
 
 
