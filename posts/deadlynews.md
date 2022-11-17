@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Book Review - Deadly News
 description: Book Review for Deadly News by Jody Holford
-date: 2016-01-24
+date: 2019-03-17
 ---
 <section class="review__info">
 
