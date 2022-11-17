@@ -6,7 +6,7 @@ date: 2019-03-05
 ---
 <section class="review__info">
 
-<img loading="lazy" class="movie__poster" src="/static/images/covers/sevenattwopastfive.webp" alt="Book Cover for Seven at Two Past Five by Tara Basi" width="283" height="400" align="left">
+<img loading="lazy" class="movie__poster" src="/static/images/covers/sevenattwopastfive.webp" alt="Book Cover for Seven at Two Past Five by Tara Basi" width="141.5" height="200" align="left">
         
 <b>Title:</b> <i>Seven at Two Past Five</i><br>
 <b>Author:</b> Tara Basi<br>
