@@ -479,6 +479,43 @@ input[type=checkbox] {
 .currently__reading {
     display: block;
     margin: 5px auto;
+    margin-bottom: 2em;
+}
+
+.listen__up {
+    font-size: 2em;
+    margin-bottom: 0.875em;
+    text-align: center;
+}
+
+.recently-played__track {
+    margin-bottom: 5em;
+    vertical-align: middle;
+}
+
+.recently-played__track a {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.album__cover {
+    height: 6.25em;
+    width: 6.25em;
+    margin-left: 3em;
+    float: left;
+}
+
+.track__name {
+    font-size: 0.875em;
+    margin-left: 0.875em;
+}
+
+.track__artist {
+    font-size: 0.625em;
+    text-transform: uppercase;
+    margin-left: 0.875em;
 }
 
 

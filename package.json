@@ -13,6 +13,9 @@
     "@11ty/eleventy": "^1.0.2"
   },
   "dependencies": {
-    "luxon": "^3.0.4"
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "dotenv": "^16.0.3",
+    "luxon": "^3.0.4",
+    "spotifyCurrentlyPlaying.js": "^0.3.2"
   }
 }
